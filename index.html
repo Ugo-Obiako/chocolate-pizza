@@ -13,45 +13,46 @@ than just the ones used in this file.
   <title>Chocolate Pizza</title>
   <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Yellowtail|Oswald" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
+<header>
+      <div id="headerIcons">
+        <img src="images/fb-icon.png" />
+        <img src="images/twit-icon.png" />
+        <img src="images/gp-icon.png" />
+        <img src="images/insta-icon.png" />
+        <img src="images/flic-icon.png" />
+        <img src="images/pint-icon.png" />
+        <img src="images/rss-icon.png" />
+        <img src="images/mail-icon.png" />
+      </div>
 
-  <header>
-    <div>
       <img src="images/logo.png" />
-      <div>
-        <p>Delicious</p>
-        <strong>The best food blog on the web</strong>
-      </div>
-    </div>
-    <nav>
-      <img src="images/fb-icon.png" /></li>
-      <img src="images/twit-icon.png" />
-      <img src="images/gp-icon.png" />
-      <img src="images/insta-icon.png" />
-      <img src="images/flic-icon.png" />
-      <img src="images/pint-icon.png" />
-      <img src="images/rss-icon.png" />
-      <img src="images/mail-icon.png" />
-    </nav>
-  </header>
-  <main>
-    <section>
-      <div>
-        <header>
-          <h1>Chocolate Pizza</h1>
-          <div>
+
+      <ul id="delicious">
+        <li>Delicious</li>
+        <li>The best food blog on the web</li>
+      </ul>
+
+</header>
+
+<nav>
+    <img src="images/print-icon.png" class="navImage"/>
+    <div><p>Chocolate Pizza<br>
             <strong>Posted on 15 Dec 2013 / Deserts</strong>
-            <img src="images/print-icon.png" />
-          </div>
-        </header>
-        <figure>
-          <img src="images/choco-pizza.png" />
-        </figure>
-      </div>
-    </section>
+        </p>
+    </div>
+</nav>
+
+
+
+  <main>
+
+          <img src="images/choco-pizza.png" class="chocoImage"/>
+
+
     <section>
       <p>
         For the fig swirl, melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all
@@ -70,10 +71,11 @@ than just the ones used in this file.
         before serving.
       </p>
     </section>
-    <section>
-      <figure>
-        <img src="images/list-bg.png" />
-      </figure>
+
+    <section class="ImageContainer">
+        <img src="images/list-bg.png" class="listImage" />
+
+    <section class="textOverlay1">
       <ul>
         <li>
           <label>
@@ -111,6 +113,11 @@ than just the ones used in this file.
             <span>2-4 Tsp Water</span>
           </label>
         </li>
+      </ul>
+    </section>
+
+    <section class="textOverlay2">
+        <ul>
         <li>
           <label>
             <input type="checkbox" />
@@ -149,8 +156,9 @@ than just the ones used in this file.
         </li>
       </ul>
     </section>
+    </section>
+
     <section>
-      <figure>
         <img src="images/van-pic.png" />
       </figure>
       <div>
@@ -161,12 +169,17 @@ than just the ones used in this file.
       </div>
       <a href="#"><strong>Share Recipe</strong></a>
     </section>
+
   </main>
+
   <footer>
+
+    <button class="btn">SHARE RECIPE</button>
     <img src="images/small-logo.png" />
     <p>Delicious &copy; 2023 &#183; All rights reserved</p>
     <p>Proudly published with Ghost</p>
   </footer>
+
 </body>
 
 </html>

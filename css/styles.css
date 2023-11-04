@@ -1,0 +1,89 @@
+.listImage {
+    width: 1550px;
+    height: 400px;
+}
+
+#headerIcons{
+    float: right;
+
+}
+
+.navImage {
+    float: right;
+}
+
+#delicious{
+    display: inline-block;
+    margin-left: 0%;
+    padding-left: 0%;
+    list-style-type: none;
+
+} 
+
+.chocoImage{
+    display: flex;
+    width: 1550px;
+    height: 600px;
+}
+
+.imageContainer{
+    position: relative;
+    display: inline-block;
+
+}
+
+/*.textOverlay1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textOverlay2{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+
+
+}
+*/
+
+.btn{
+font-family: Roboto, sans-serif;
+font-weight: 100;
+font-size: 14px;
+color: #ffffff;
+background-color: #b09f9f;
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 1px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+float: right;
+
+}
+
+.btn:hover{
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #0066cc;
+border: solid 2px #0066cc;
+
+}
+
+/* </style>
+<button class="btn">SHARE RECIPE</button> */
