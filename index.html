@@ -32,7 +32,7 @@ than just the ones used in this file.
       <img src="images/logo.png" />
 
       <ul id="delicious">
-        <li>Delicious</li>
+        <li id="liHeader">Delicious</li>
         <li>The best food blog on the web</li>
       </ul>
 
@@ -40,10 +40,8 @@ than just the ones used in this file.
 
 <nav>
     <img src="images/print-icon.png" class="navImage"/>
-    <div><p>Chocolate Pizza<br>
-            <strong>Posted on 15 Dec 2013 / Deserts</strong>
-        </p>
-    </div>
+     <li class="pChoco"><strong>Chocolate Pizza</strong></li>
+     <li>Posted on 15 Dec 2013 / Deserts</li>
 </nav>
 
 
@@ -158,26 +156,25 @@ than just the ones used in this file.
     </section>
     </section>
 
+    <hr class="hLine">
+
     <section>
-        <img src="images/van-pic.png" />
-      </figure>
-      <div>
-        <h2>Vanessa Stevenson</h2>
-        <p>
-          Food enthusiast, photography fan. Add a pinch of raw foodism and thats pretty much who I am.
-        </p>
-      </div>
-      <a href="#"><strong>Share Recipe</strong></a>
+        <button class="btn">SHARE RECIPE</button>
+        <img src="images/van-pic.png" id="image2"/>
+        <ul id="interests">
+            <li><b>Vanessa Stevenson</b></li>
+          <li>Food enthusiast, photography fan. Add a pinch of raw foodism and that's </li>
+          <li>pretty much who I am.</li>
+        </ul>
     </section>
 
   </main>
 
   <footer>
-
-    <button class="btn">SHARE RECIPE</button>
-    <img src="images/small-logo.png" />
-    <p>Delicious &copy; 2023 &#183; All rights reserved</p>
-    <p>Proudly published with Ghost</p>
+   
+    <img src="images/small-logo.png" class="imageFooter" />
+    <p class="footerP">Delicious &copy; 2023 &#183; All rights reserved</p>
+    <p class="footerP">Proudly published with Ghost</p>
   </footer>
 
 </body>

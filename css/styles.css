@@ -32,10 +32,10 @@
 
 }
 
-/*.textOverlay1{
+.textOverlay1{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    left: 50%;
     width: 30%;
     height: 30%;
     display: flex;
@@ -52,7 +52,7 @@
 
 
 }
-*/
+
 
 .btn{
 font-family: Roboto, sans-serif;
@@ -72,7 +72,6 @@ align-items: center;
 cursor: pointer;
 text-transform: uppercase;
 float: right;
-
 }
 
 .btn:hover{
@@ -82,8 +81,42 @@ transform : translateY(-0px);
 background-color: #fff;
 color: #0066cc;
 border: solid 2px #0066cc;
-
 }
 
 /* </style>
 <button class="btn">SHARE RECIPE</button> */
+
+#image2{
+    float: left;
+}
+
+ul#interests{
+    display: inline-block;
+    list-style-type: none; 
+}
+
+.imageFooter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+p.footerP{
+    text-align: center;
+
+}
+
+.pChoco{
+    font-size: 24px;
+}
+
+#liHeader{
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+nav li{
+    list-style-type: none;
+}
