@@ -21,36 +21,44 @@
 } 
 
 .chocoImage{
-    display: flex;
+    /* display: flex; */
     width: 1550px;
     height: 600px;
 }
 
 .imageContainer{
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
+    text-align: center;
 
 }
 
 .textOverlay1{
     position: absolute;
     top: 50%;
-    left: 50%;
-    width: 30%;
-    height: 30%;
+    right: 50%;
+    width: 50%;
+    height: 200%;
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    align-items: center; 
 }
 
 .textOverlay2{
-    position: absolute;
+    /* position: absolute;
     display: flex;
     justify-content: left;
     align-items: flex-end;
-
-
+    bottom: 8px;
+    right: 16px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 
@@ -119,4 +127,8 @@ p.footerP{
 
 nav li{
     list-style-type: none;
+}
+
+.strikethrough{
+    text-decoration: line-through;
 }
